@@ -5,12 +5,16 @@
   "private": true,
   "scripts": {
     "backend": "cd backend && bun dev",
-    "frontend": "cd frontend && bun dev"
+    "frontend": "cd frontend && bun dev",
+    "dev": "concurrently 'bun run backend' 'bun run frontend' "
   },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1"
   }
 }

@@ -1,9 +1,14 @@
 {
   "dependencies": {
+    "@google/genai": "^1.20.0",
     "@types/bun": "^1.2.21",
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
+    "@types/multer": "^2.0.0",
     "bun": "^1.2.21",
-    "express": "^5.1.0"
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
   },
   "scripts": {
     "dev": "bun run index.ts"

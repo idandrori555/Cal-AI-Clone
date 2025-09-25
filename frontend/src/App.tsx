@@ -1,10 +1,11 @@
 import './App.css'
+import FoodAnalyzer from './FoodAnalyzer';
 
 function App() {
   return (
     <>
       <div>
-        <h2 className='text-3xl text-pink-500'>Hello World</h2>
+        <FoodAnalyzer />
       </div>
     </>
   );
